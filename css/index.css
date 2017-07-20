@@ -210,18 +210,24 @@ a:focus, a:hover {
 			width: 100%;
 			display: block;
 		}
+		.section .tm-wrapper-center{
+			/*margin: 0 15px;*/
+			width:100%;
+		}
 		.tm-wrapper-center{
 			position: absolute;
+			top: 4rem;
+    		left: 0;
 		}
 		.tm-section-intro h1{
 			font-size: 2.4rem;
 			line-height: 4rem;
-			margin-bottom: 0;
+			margin-bottom: 1rem;
 		}
 		.tm-section-intro .tm-section-intro-text {
 		    font-size: 1.4rem;
 		    line-height:2rem;
-		    margin-bottom: 1rem;
+		    margin-bottom: 2.6rem;
 		}
 		.tm-btn-white-big {
 		    font-size: 1.4rem;
