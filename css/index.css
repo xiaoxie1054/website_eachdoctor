@@ -27,7 +27,7 @@ a:focus, a:hover {
 
 	/*轻量化*/
 	.tm-section-intro{
-	    background-image: url(../images/ocean_bg.png);
+	    background-image: url(../images/ocean_bg.jpg);
 	    background-attachment: fixed;
 	    background-position:top center;
 	    background-size:1200px auto;
