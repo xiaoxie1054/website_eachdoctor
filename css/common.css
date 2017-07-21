@@ -252,9 +252,9 @@ footer .example p{
 }
 @media screen and (min-width: 580px) {
 	/*底部版权*/
-	footer{
+	/*footer{
 		padding-top:28px\0;
-	}
+	}*/
 }
 
 @media screen and (min-width: 767px){
@@ -303,6 +303,10 @@ footer .example p{
 	/*底部导航条*/		
 	footer .example{
 		padding-left: 4rem;
+	}
+
+	footer .footer_margin_ie_0{
+		margin:0px\9;
 	}
 	
 

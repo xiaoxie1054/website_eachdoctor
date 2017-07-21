@@ -46,6 +46,16 @@ a:focus, a:hover {
 	    height: 450px;
 	    max-height: 450px;
 	}
+	
+	.section .tm-wrapper-center{
+		/*margin: 0 15px;*/
+		width:100%;
+	}
+	.tm-wrapper-center{
+		position: absolute;
+		top: 4rem;
+		left: 0;
+	}
 
 	.tm-section-intro h1{
 		font-size: 10rem;
@@ -120,6 +130,7 @@ a:focus, a:hover {
 	.swiper-container .swiper_slide{
 		width: 80%;
 		/*padding: 0 6rem;*/
+    	display: block;
 
 	}
 	.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
@@ -197,6 +208,8 @@ a:focus, a:hover {
 	line-height: 3rem;
 }
 
+
+
 @media (max-width: 767px){
 	/*首页*/
 		/*轻量化*/
@@ -210,15 +223,8 @@ a:focus, a:hover {
 			width: 100%;
 			display: block;
 		}
-		.section .tm-wrapper-center{
-			/*margin: 0 15px;*/
-			width:100%;
-		}
-		.tm-wrapper-center{
-			position: absolute;
-			top: 4rem;
-    		left: 0;
-		}
+		 
+		
 		.tm-section-intro h1{
 			font-size: 2.4rem;
 			line-height: 4rem;
